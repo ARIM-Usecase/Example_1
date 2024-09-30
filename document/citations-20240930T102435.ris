@@ -1,0 +1,25 @@
+Provider: Silverchair
+Database: AIPPublishing
+Content: text/plain; charset="UTF-8"
+
+TY  - JOUR
+AU  - Swetlana, Sucheta
+AU  - Rout, Ashish
+AU  - Singh, Abhishek Kumar
+T1  - Machine learning assisted interpretation of creep and fatigue life in titanium alloys
+PY  - 2023
+Y1  - 2023/02/14
+DO  - 10.1063/5.0129037
+JO  - APL Machine Learning
+JA  - APL Mach. Learn.
+VL  - 1
+IS  - 1
+SP  - 016102
+SN  - 2770-9019
+AB  - Making reliable predictions of the mechanical behavior of alloys with a prolonged service life is beneficial for many structural applications. In this work, we propose an interpretable machine learning (ML) approach to predict fatigue life cycles (Nf) and creep rupture life (tr) in titanium-based alloys. Chemical compositions, experimental parameters, and alloy processing conditions are employed as descriptors for the development of gradient boost regression models for log-scaled Nf and tr. The models are trained on an extensive experimental dataset, predicting log-scaled Nf and tr with a very small root mean squared error of 0.17 and 0.15, respectively. An intuitive interpretation of the ML models is carried out via SHapley Additive exPlanations (SHAP) to understand the complex interplay of various features with Nf and tr. The SHAP interpretation of the ML models reveals close agreement with the general creep equation and Wöhler curve of fatigue. The approach proposed in this study can accelerate the design of novel Ti-based alloys with desired properties.
+Y2  - 9/30/2024
+UR  - https://doi.org/10.1063/5.0129037
+ER  - 
+
+
+
