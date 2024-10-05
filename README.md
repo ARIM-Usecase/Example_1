@@ -19,8 +19,6 @@
 
 ---
 
-
-
 **Chemical composition** 
 1. Titanium (wt %) Ti 
 1. Alumunium (wt %) Al 
