@@ -2010,3 +2010,11 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2024-09-03 08:45:54,623:INFO:_display_container: 2
 2024-09-03 08:45:54,623:INFO:GradientBoostingRegressor(random_state=234)
 2024-09-03 08:45:54,623:INFO:compare_models() successfully completed......................................
+2024-10-27 16:10:56,419:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-10-27 16:10:56,419:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-10-27 16:10:56,419:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-10-27 16:10:56,419:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
