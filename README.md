@@ -1,23 +1,25 @@
-# ARIM-Academy：　機器データ利活用ユースケース
-### タイトル：機械学習によるTi合金の疲労・クリープ寿命予測
-### 機器：クリープ試験機
-### 分析：回帰分析（勾配ブースティング回帰、SHAP評価）
-
 
 ## データセット
-
 <div style="border:1px solid #000; padding:10px;">
     
-本編で扱う creep_data.xlsx" は、177種のTi合金にかかるクリープデータセットです。
+本研究では、177種類のチタン合金を対象としたクリープデータセット "creep_data.xlsx" を用います。このデータセットは、各合金の組成、クリープ試験条件、熱処理情報を網羅的に収録しており、以下の特徴を有します。
+
+合金組成: 各合金の具体的な元素組成（含有量など）が記録されています。  
+クリープ試験条件: クリープ試験時の温度、応力などのパラメータが詳細に記録されています。  
+熱処理情報: 合金の製造過程における熱処理条件（温度、時間など）が記録されています。
+
+本研究の目的は、これらのマテリアル情報と実験条件を説明変数とし、**クリープ寿命（Rupture time）**を目的変数とする予測モデルを構築することです。具体的には、機械学習などの手法を用いて、合金の組成、クリープ試験条件、熱処理情報からクリープ寿命を高精度に予測できるモデルを開発することを目指します。
 
 [1] S. Sucheta, R. Ashish and S. A. Kumar, "Machine learning assisted interpretation of creep and fatigue life in titanium alloys", *APL Machine Learning*, **1**, 016102 (2023)
 
-"creep_data.xlsx" には、合金の組成のほか、クリープの実験条件ならびに熱処理のデータがセットで含まれています。
 
-<br>  
+<br> 
+<center> 
 <img src="./img/m_016102_1_f1.jpeg" width="50%"><br> 
-
+</center> 
 ---
+
+## 特徴量
 
 **Chemical composition** 
 1. Titanium (wt %) Ti 
@@ -37,7 +39,7 @@
 1. Chromium (wt %) Cr 
 
 
-**Experimental parameters**  
+**Experimental parameters**
 1. Rupture strain (%) ϵr 
 1. Temperature of measurement (cel) Tcreep 
 1. Steady state strain rate (1/s) ˙ ϵ 
